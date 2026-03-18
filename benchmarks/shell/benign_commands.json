@@ -1,0 +1,14 @@
+[
+  {
+    "event": "TerminalExecute",
+    "command": "ls -la /tmp"
+  },
+  {
+    "event": "TerminalExecute",
+    "command": "cat /etc/hosts"
+  },
+  {
+    "event": "TerminalExecute",
+    "command": "grep localhost /etc/hosts"
+  }
+]
