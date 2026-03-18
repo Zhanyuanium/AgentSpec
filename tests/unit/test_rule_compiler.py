@@ -58,3 +58,14 @@ def test_compile_sample_knowledge_base() -> None:
     )
     artifacts = compile_knowledge_base(kb)
     assert len(artifacts) == len(kb.entries)
+
+
+def test_compile_shell_knowledge_base_is_parsable() -> None:
+    kb = load_uca_knowledge_base(
+        Path(__file__).resolve().parents[2] / "data" / "uca" / "shell" / "shell_kb.json"
+    )
+    artifacts = compile_knowledge_base(kb)
+    assert artifacts
+    for artifact in artifacts:
+        parsed = Rule.from_text(artifact.spec_text)
+        assert parsed.event == "TerminalExecute"

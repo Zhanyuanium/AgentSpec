@@ -4,7 +4,14 @@ from typing import Final
 
 ATTACK_TACTIC_TO_RISKS: Final[dict[str, set[str]]] = {
     "exfiltration": {"network_exfiltration", "untrusted_post_request", "sensitive_data_leak"},
-    "persistence": {"startup_file_tamper", "bashrc_alias_backdoor", "privilege_retention"},
+    "persistence": {
+        "startup_file_tamper",
+        "bashrc_alias_backdoor",
+        "privilege_retention",
+        "shell_profile_tamper",
+    },
+    "privilege_escalation": {"shell_privilege_escalation"},
+    "impact": {"shell_destructive_delete"},
 }
 
 

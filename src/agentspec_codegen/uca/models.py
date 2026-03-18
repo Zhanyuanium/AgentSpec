@@ -15,6 +15,14 @@ class UcaRiskType(str, Enum):
     STARTUP_FILE_TAMPER = "startup_file_tamper"
     BASHRC_ALIAS_BACKDOOR = "bashrc_alias_backdoor"
     PRIVILEGE_RETENTION = "privilege_retention"
+    SHELL_DESTRUCTIVE_DELETE = "shell_destructive_delete"
+    SHELL_PRIVILEGE_ESCALATION = "shell_privilege_escalation"
+    SHELL_PROFILE_TAMPER = "shell_profile_tamper"
+
+
+class UcaDomain(str, Enum):
+    CODE = "code"
+    SHELL = "shell"
 
 
 class UcaEntry(BaseModel):
@@ -22,7 +30,7 @@ class UcaEntry(BaseModel):
 
     uca_id: str = Field(min_length=3, max_length=64)
     title: str = Field(min_length=3, max_length=200)
-    domain: str = Field(default="code", pattern=r"^code$")
+    domain: UcaDomain = UcaDomain.CODE
     risk_type: UcaRiskType
     mitre_tactic: str
     trigger_event: str = Field(min_length=1)

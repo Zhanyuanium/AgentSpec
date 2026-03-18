@@ -50,6 +50,13 @@ def test_load_sample_uca_kb() -> None:
     assert len(kb.entries) >= 2
 
 
+def test_load_shell_uca_kb() -> None:
+    kb_path = Path(__file__).resolve().parents[2] / "data" / "uca" / "shell" / "shell_kb.json"
+    kb = load_uca_knowledge_base(kb_path)
+    assert kb.entries
+    assert kb.entries[0].domain.value == "shell"
+
+
 def test_uca_model_dump_roundtrip() -> None:
     kb = UcaKnowledgeBase.model_validate({"version": "0.1.0", "entries": [_valid_entry()]})
     dumped = kb.model_dump_json()

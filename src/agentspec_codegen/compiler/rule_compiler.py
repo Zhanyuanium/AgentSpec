@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 
+from jinja2 import Environment, FileSystemLoader, StrictUndefined
+
 from agentspec_codegen.uca.models import UcaEntry, UcaKnowledgeBase, UcaRiskType
 
 
@@ -13,6 +15,10 @@ DEFAULT_PREDICATE_BY_RISK = {
     UcaRiskType.STARTUP_FILE_TAMPER: ["write_to_io", "involve_system_file"],
     UcaRiskType.BASHRC_ALIAS_BACKDOOR: ["write_to_io", "involve_bash_rc"],
     UcaRiskType.PRIVILEGE_RETENTION: ["execute_script", "involve_system_file"],
+    # Keep predicate names parser-compatible with the current AgentSpec grammar.
+    UcaRiskType.SHELL_DESTRUCTIVE_DELETE: ["destuctive_os_inst", "involve_system_file"],
+    UcaRiskType.SHELL_PRIVILEGE_ESCALATION: ["is_improper_execution_privilege_code"],
+    UcaRiskType.SHELL_PROFILE_TAMPER: ["involve_bash_rc"],
 }
 
 
@@ -37,17 +43,21 @@ def _resolve_predicates(entry: UcaEntry) -> list[str]:
 def compile_entry(entry: UcaEntry) -> CompilationArtifact:
     rule_id = _normalize_rule_id(entry.uca_id)
     predicates = _resolve_predicates(entry)
-    checks = "\n".join(f"    {name}" for name in predicates)
-    spec_text = (
-        f"rule @{rule_id}\n"
-        f"trigger\n"
-        f"    {entry.trigger_event}\n"
-        f"check\n"
-        f"{checks}\n"
-        f"enforce\n"
-        f"    {entry.enforcement}\n"
-        f"end\n"
+    template_dir = Path(__file__).resolve().parent / "templates"
+    env = Environment(
+        loader=FileSystemLoader(str(template_dir)),
+        undefined=StrictUndefined,
+        trim_blocks=True,
+        lstrip_blocks=True,
     )
+    template = env.get_template("rule.spec.j2")
+    spec_text = template.render(
+        rule_id=rule_id,
+        trigger_event=entry.trigger_event,
+        predicates=predicates,
+        enforcement=entry.enforcement,
+    )
+    spec_text = spec_text.rstrip() + "\n"
     return CompilationArtifact(rule_id=rule_id, uca_id=entry.uca_id, spec_text=spec_text, predicates=predicates)
 
 
