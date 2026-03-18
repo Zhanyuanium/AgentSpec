@@ -26,6 +26,7 @@ from langchain.agents.agent_types import AgentType
 from langchain.agents.loading import AGENT_TO_CLASS, load_agent
 from langchain_core.runnables import Runnable, RunnableConfig
 from typing import Dict
+from agentspec_codegen.runtime import RuleAuditRecord
 
 
 NextStepOutput = List[Union[AgentFinish, AgentAction, AgentStep]]
@@ -86,6 +87,15 @@ class ControlledAgentExecutor(AgentExecutor) :
             if action.is_finish() and rule.trigger_finished() or rule.triggered(action.name, action.input): 
                 interpreter = RuleInterpreter(rule, state)
                 res, action = interpreter.verify_and_enforce(action)
+                state.runtime_context.add_audit(
+                    RuleAuditRecord(
+                        rule_id=rule.id,
+                        event=rule.event,
+                        action_name=state.action.name if state.action else "",
+                        enforce_result=res.name.lower(),
+                        detail=str(interpreter.cond_eval_history),
+                    )
+                )
                 if res == EnforceResult.CONTINUE:
                     continue
                 elif res == EnforceResult.SKIP:
@@ -163,7 +173,11 @@ class ControlledAgentExecutor(AgentExecutor) :
         # todo: need an adapter here.
         rule, action = self.validate_and_enforce(action, state) 
         if action.is_skip():
-            observation_text = f"after the enforcement of rule:\n{rule.raw}, the action is skipped by user" 
+            audit_lines = [f"{a.rule_id}:{a.enforce_result}" for a in state.runtime_context.audits]
+            observation_text = (
+                f"after the enforcement of rule:\n{rule.raw}, the action is skipped by user\n"
+                f"audit={';'.join(audit_lines)}"
+            )
             yield AgentStep(action=output, observation=observation_text)
             return
         output = action.unwrap()

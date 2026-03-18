@@ -1,4 +1,4 @@
-from antlr4 import * 
+from antlr4 import *
 import unittest
 from spec_lang.AgentSpecListener import AgentSpecListener 
 from spec_lang.AgentSpecLexer import AgentSpecLexer
@@ -34,7 +34,7 @@ class RuleInterpreter(AgentSpecListener):
             arg_dict[self.eval_str(kv.STRING())] = self.eval_value(kv.value())    
         return {"name":name, "args": arg_dict}
 
-    def eval_predicate(self, ctx: AgentSpecParser.PredicateContext) -> bool: 
+    def eval_predicate(self, ctx: AgentSpecParser.PredicateContext) -> bool:
         cond_str = ctx.getText()
         if ctx.TRUE() !=None: #for testing 
             self.cond_eval_history[ctx.getText()] ={"val": True, "rationale": f"JUST TRUE, WHAT CAN I SAY? :-)"} 
@@ -51,19 +51,26 @@ class RuleInterpreter(AgentSpecListener):
                 #     self.cond_eval_history[ctx.getText()] ={"val": res, "rationale": f"the following condition is not satisfied: {res[ctx.condition().getText()]}"}
             return res 
         elif ctx.PREDICATE() !=None:
-            # if self.rule.toolkit == "any":
-            #     raise ValueError("rule for toolemu must specify toolkit")
-            # todo: map the predicate to function execution  
-            # print()
-            # tool = self.rule.tool
-            print(self.rule.event)
             predicate_str = ctx.PREDICATE().getText()
-            print(predicate_str)
-            func = predicate_table[predicate_str] 
-            # print(self.rule_state.user_input)
-            # print(self.rule_state.intermediate_steps)
-            # print(self.rule_state.action.input)
-            return func(self.rule_state.user_input, self.rule_state.action.input, self.rule_state.intermediate_steps)
+            cache_key = f"{self.rule.id}:{predicate_str}:{self.rule_state.action.name}"
+            cached = self.rule_state.runtime_context.get_cached_predicate(cache_key)
+            if cached is not None:
+                return cached
+
+            if predicate_str not in predicate_table:
+                raise ValueError(f"predicate '{predicate_str}' is not registered in predicate_table")
+            func = predicate_table[predicate_str]
+            result = func(
+                self.rule_state.user_input,
+                self.rule_state.action.input,
+                self.rule_state.intermediate_steps,
+            )
+            self.rule_state.runtime_context.set_cached_predicate(cache_key, bool(result))
+            self.cond_eval_history[cond_str] = {
+                "val": bool(result),
+                "rationale": f"evaluated by predicate function '{predicate_str}'",
+            }
+            return bool(result)
         else:
             raise ValueError("unsupported type") 
             # values = []
