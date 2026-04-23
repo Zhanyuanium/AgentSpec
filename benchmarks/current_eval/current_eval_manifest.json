@@ -1,0 +1,11 @@
+{
+  "seed": 20260423,
+  "risky_code_count": 810,
+  "risky_shell_count": 600,
+  "safe_code_count": 810,
+  "safe_shell_count": 600,
+  "code_safe_source": "benchmarks\\MBPP\\mbpp_code_samples.json",
+  "shell_safe_source": "benchmarks\\ShellBench\\shellbench_safe_commands.json",
+  "code_safe_output": "benchmarks\\current_eval\\code_safe_equal_mbpp.json",
+  "shell_safe_output": "benchmarks\\current_eval\\shell_safe_equal_shellbench.json"
+}

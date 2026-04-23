@@ -1,0 +1,6002 @@
+[
+  {
+    "Index": "shellbench_safe_0001",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0002",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0003",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0004",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [ \"$string\" = \"string\" ]; then",
+    "command": "if [ \"$string\" = \"string\" ]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0005",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0006",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0007",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/#abc:/cba:}",
+    "command": "var=${string/#abc:/cba:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0008",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0009",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0010",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 << EOF",
+    "command": "var=$(cut '-d:' -f1 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0011",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0012",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "i=$((i+1))",
+    "command": "i=$((i+1))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0013",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0014",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0015",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "set -- \"1\"",
+    "command": "set -- \"1\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0016",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0017",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0018",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0019",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0020",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0021",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0022",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0023",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0024",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string#*:}",
+    "command": "var=${string#*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0025",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0026",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0027",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string##*:}",
+    "command": "var=${string##*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0028",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0029",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f-2 << EOF",
+    "command": "var=$(cut '-d:' -f-2 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0030",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0031",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/g')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/g')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0032",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0033",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0034",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0035",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0036",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0037",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0038",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo 1",
+    "command": "echo 1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0039",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0040",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0041",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0042",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0043",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0044",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0045",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0046",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0047",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0048",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0049",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0050",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0051",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0052",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true",
+    "command": "true",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0053",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0054",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0055",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0056",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0057",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0058",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "\"$true\"",
+    "command": "\"$true\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0059",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "print \"test\"",
+    "command": "print \"test\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0060",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0061",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(func)",
+    "command": "var=$(func)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0062",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0063",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0064",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0065",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0066",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0067",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0068",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0069",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/#abc:/cba:}",
+    "command": "var=${string/#abc:/cba:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0070",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0071",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 << EOF",
+    "command": "var=$(cut '-d:' -f1 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0072",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0073",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2:3}",
+    "command": "var=${string:2:3}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0074",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 <<< \"$string\")",
+    "command": "var=$(cut -c3-5 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0075",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0076",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0077",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0078",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=",
+    "command": "var=",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0079",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0080",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "foo() { :; }",
+    "command": "foo() { :; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0081",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0082",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0083",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0084",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0085",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0086",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0087",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0088",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0089",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0090",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0091",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0092",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0093",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0094",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0095",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0096",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/^abc:/cba:/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/^abc:/cba:/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0097",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "i=$((i+1))",
+    "command": "i=$((i+1))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0098",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0099",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0100",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0101",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0102",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(func)",
+    "command": "var=$(func)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0103",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0104",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0105",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0106",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0107",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0108",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0109",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0110",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2:3}",
+    "command": "var=${string:2:3}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0111",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0112",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0113",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string#*:}",
+    "command": "var=${string#*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0114",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0115",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0116",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0117",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0118",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0119",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0120",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0121",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [ \"$string\" = \"string\" ]; then",
+    "command": "if [ \"$string\" = \"string\" ]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0122",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0123",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2}",
+    "command": "var=${string:2}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0124",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-5)",
+    "command": "var=$(echo \"$string\" | cut -c3-5)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0125",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-)",
+    "command": "var=$(echo \"$string\" | cut -c3-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0126",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0127",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0128",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0129",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0130",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0131",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0132",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0133",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0134",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0135",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "print \"test\"",
+    "command": "print \"test\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0136",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0137",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "cleanup() { :; }",
+    "command": "cleanup() { :; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0138",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0139",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "case $string in (string)",
+    "command": "case $string in (string)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0140",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0141",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string##*:}",
+    "command": "var=${string##*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0142",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0143",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0144",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 << EOF",
+    "command": "var=$(cut -c3-5 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0145",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0146",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0147",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0148",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/%:ghi/:ihg}",
+    "command": "var=${string/%:ghi/:ihg}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0149",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/%:ghi/:ihg}",
+    "command": "var=${string/%:ghi/:ihg}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0150",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0151",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0152",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0153",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0154",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/^abc:/cba:/' <<< \"$string\")",
+    "command": "var=$(sed -e 's/^abc:/cba:/' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0155",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0156",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0157",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0158",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0159",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0160",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0161",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0162",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0163",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0164",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:ghi$/:ihg/g')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:ghi$/:ihg/g')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0165",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${#string}",
+    "command": "var=${#string}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0166",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0167",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0168",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/:/|}",
+    "command": "var=${string/:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0169",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0170",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(func)",
+    "command": "var=$(func)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0171",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0172",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 <<< \"$string\")",
+    "command": "var=$(cut -c3-5 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0173",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0174",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0175",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0176",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:/|/' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0177",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0178",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0179",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0180",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0181",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0182",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0183",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "typeset -i i",
+    "command": "typeset -i i",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0184",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f3)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0185",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0186",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0187",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo \"test\"",
+    "command": "echo \"test\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0188",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0189",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0190",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0191",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0192",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 << EOF",
+    "command": "var=$(cut -c3-5 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0193",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "function func {",
+    "command": "function func {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0194",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0195",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0196",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0197",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/' << EOF",
+    "command": "var=$(sed -e 's/:/|/' << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0198",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "function func {",
+    "command": "function func {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0199",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0200",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0201",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0202",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0203",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0204",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0205",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-)",
+    "command": "var=$(echo \"$string\" | cut -c3-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0206",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0207",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string%:*}",
+    "command": "var=${string%:*}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0208",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0209",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0210",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0211",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0212",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0213",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0214",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0215",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo 1",
+    "command": "echo 1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0216",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "function func {",
+    "command": "function func {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0217",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3- <<< \"$string\")",
+    "command": "var=$(cut -c3- <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0218",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0219",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0220",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0221",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "eval \"var=1\"",
+    "command": "eval \"var=1\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0222",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:/|/' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0223",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0224",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0225",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0226",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0227",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0228",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0229",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0230",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/^abc:/cba:/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/^abc:/cba:/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0231",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0232",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0233",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0234",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0235",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0236",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/^abc:/cba:/' << EOF",
+    "command": "var=$(sed -e 's/^abc:/cba:/' << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0237",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0238",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0239",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=",
+    "command": "var=",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0240",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0241",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0242",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "((i++))",
+    "command": "((i++))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0243",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0244",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0245",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string//:/|}",
+    "command": "var=${string//:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0246",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0247",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0248",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0249",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0250",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0251",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0252",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "i=$((i+1))",
+    "command": "i=$((i+1))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0253",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0254",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0255",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0256",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0257",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0258",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0259",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0260",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "((i++))",
+    "command": "((i++))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0261",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string%:*}",
+    "command": "var=${string%:*}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0262",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0263",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string='string'; }",
+    "command": "setup() { string='string'; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0264",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3- <<< \"$string\")",
+    "command": "var=$(cut -c3- <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0265",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0266",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0267",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0268",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo \"test\"",
+    "command": "echo \"test\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0269",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0270",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0271",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0272",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0273",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0274",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true",
+    "command": "true",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0275",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0276",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true=$(command which true)",
+    "command": "true=$(command which true)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0277",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0278",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0279",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0280",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0281",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0282",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0283",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0284",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0285",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0286",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0287",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "typeset var",
+    "command": "typeset var",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0288",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "unset no_such_variable",
+    "command": "unset no_such_variable",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0289",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(expr substr $string 3 3)",
+    "command": "var=$(expr substr $string 3 3)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0290",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2}",
+    "command": "var=${string:2}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0291",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0292",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0293",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0294",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0295",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0296",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0297",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/:/|}",
+    "command": "var=${string/:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0298",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2:3}",
+    "command": "var=${string:2:3}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0299",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0300",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0301",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2}",
+    "command": "var=${string:2}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0302",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0303",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0304",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0305",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { i=1; }",
+    "command": "setup() { i=1; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0306",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0307",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0308",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/:/|}",
+    "command": "var=${string/:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0309",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0310",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0311",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0312",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0313",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0314",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0315",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true",
+    "command": "true",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0316",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0317",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [ \"$string\" = \"string\" ]; then",
+    "command": "if [ \"$string\" = \"string\" ]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0318",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0319",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0320",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string='abc:def:ghi'; }",
+    "command": "setup() { string='abc:def:ghi'; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0321",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0322",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0323",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0324",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0325",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0326",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0327",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0328",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "i=$((i+1))",
+    "command": "i=$((i+1))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0329",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0330",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-)",
+    "command": "var=$(echo \"$string\" | cut -c3-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0331",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0332",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0333",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0334",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0335",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0336",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0337",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0338",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0339",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0340",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${#string}",
+    "command": "var=${#string}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0341",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0342",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0343",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0344",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0345",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0346",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0347",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0348",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0349",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0350",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0351",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0352",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0353",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0354",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0355",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0356",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "printf \"test\\n\"",
+    "command": "printf \"test\\n\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0357",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0358",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0359",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string:2:3}",
+    "command": "var=${string:2:3}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0360",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0361",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0362",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0363",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0364",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string='abc:def:ghi'; }",
+    "command": "setup() { string='abc:def:ghi'; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0365",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0366",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0367",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f1)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0368",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0369",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0370",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0371",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0372",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=",
+    "command": "var=",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0373",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0374",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0375",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0376",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${#string}",
+    "command": "var=${#string}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0377",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0378",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "\"$true\"",
+    "command": "\"$true\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0379",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0380",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0381",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0382",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0383",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "unset no_such_variable",
+    "command": "unset no_such_variable",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0384",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0385",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0386",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0387",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0388",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0389",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0390",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0391",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0392",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0393",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0394",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0395",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0396",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0397",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0398",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0399",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0400",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0401",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3- << EOF",
+    "command": "var=$(cut -c3- << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0402",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0403",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 <<< \"$string\")",
+    "command": "var=$(cut -c3-5 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0404",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0405",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0406",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-5)",
+    "command": "var=$(echo \"$string\" | cut -c3-5)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0407",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0408",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0409",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0410",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0411",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0412",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0413",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0414",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f-2 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0415",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0416",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0417",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0418",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { i=1; }",
+    "command": "setup() { i=1; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0419",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0420",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0421",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0422",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0423",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0424",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0425",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string=\"\"; }",
+    "command": "setup() { string=\"\"; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0426",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0427",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0428",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0429",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/g')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/g')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0430",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0431",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "printf \"test\\n\"",
+    "command": "printf \"test\\n\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0432",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo \"test\"",
+    "command": "echo \"test\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0433",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "unset no_such_variable",
+    "command": "unset no_such_variable",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0434",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0435",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0436",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0437",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "eval \"var=1\"",
+    "command": "eval \"var=1\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0438",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0439",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0440",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0441",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0442",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0443",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string=\"\"; }",
+    "command": "setup() { string=\"\"; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0444",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0445",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0446",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 << EOF",
+    "command": "var=$(cut '-d:' -f1 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0447",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0448",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0449",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=",
+    "command": "var=",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0450",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0451",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0452",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0453",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0454",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/g' << EOF",
+    "command": "var=$(sed -e 's/:/|/g' << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0455",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0456",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0457",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f1 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0458",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/g' << EOF",
+    "command": "var=$(sed -e 's/:/|/g' << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0459",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0460",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "${no_such_variable:-}",
+    "command": "${no_such_variable:-}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0461",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "i=$((i+1))",
+    "command": "i=$((i+1))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0462",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0463",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0464",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3- << EOF",
+    "command": "var=$(cut -c3- << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0465",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0466",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0467",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0468",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0469",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0470",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0471",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0472",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0473",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string##*:}",
+    "command": "var=${string##*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0474",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0475",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0476",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "${no_such_variable:-}",
+    "command": "${no_such_variable:-}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0477",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0478",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 <<< \"$string\")",
+    "command": "var=$(cut -c3-5 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0479",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-)",
+    "command": "var=$(echo \"$string\" | cut -c3-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0480",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0481",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0482",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "typeset -i i",
+    "command": "typeset -i i",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0483",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string#*:}",
+    "command": "var=${string#*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0484",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0485",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0486",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0487",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0488",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-5)",
+    "command": "var=$(echo \"$string\" | cut -c3-5)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0489",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0490",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0491",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string='abc:def:ghi'; }",
+    "command": "setup() { string='abc:def:ghi'; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0492",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "cleanup() { :; }",
+    "command": "cleanup() { :; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0493",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/:/|}",
+    "command": "var=${string/:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0494",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "output.sh"
+  },
+  {
+    "Index": "shellbench_safe_0495",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string#*:}",
+    "command": "var=${string#*:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0496",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0497",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0498",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "(",
+    "command": "(",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0499",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0500",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(func)",
+    "command": "var=$(func)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0501",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "((i++))",
+    "command": "((i++))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0502",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0503",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/%:ghi/:ihg}",
+    "command": "var=${string/%:ghi/:ihg}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0504",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0505",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "command": "var=$(echo \"$string\" | sed -e 's/:/|/')",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0506",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0507",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0508",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string//:/|}",
+    "command": "var=${string//:/|}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0509",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "\"$true\"",
+    "command": "\"$true\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0510",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=",
+    "command": "var=",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0511",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0512",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0513",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0514",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0515",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "typeset -i i",
+    "command": "typeset -i i",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0516",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0517",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0518",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0519",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "\"$true\"",
+    "command": "\"$true\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0520",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0521",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0522",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0523",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0524",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:ghi$/:ihg/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0525",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "command": "var=$(cut '-d:' -f3 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0526",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0527",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0528",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true",
+    "command": "true",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0529",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0530",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "command": "var=$(sed -e 's/:/|/g' <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0531",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0532",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0533",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0534",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0535",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0536",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0537",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0538",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0539",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0540",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0541",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0542",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true",
+    "command": "true",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0543",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func",
+    "command": "func",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0544",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "func() {",
+    "command": "func() {",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0545",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0546",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0547",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0548",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "echo 1",
+    "command": "echo 1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0549",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0550",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "case $string in (string)",
+    "command": "case $string in (string)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0551",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0552",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0553",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "true=$(command which true)",
+    "command": "true=$(command which true)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0554",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { i=1; }",
+    "command": "setup() { i=1; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0555",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut '-d:' -f1 << EOF",
+    "command": "var=$(cut '-d:' -f1 << EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0556",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0557",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "local var",
+    "command": "local var",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0558",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0559",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ":",
+    "command": ":",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0560",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "func.sh"
+  },
+  {
+    "Index": "shellbench_safe_0561",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0562",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0563",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0564",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0565",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0566",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0567",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0568",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0569",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(cut -c3-5 <<< \"$string\")",
+    "command": "var=$(cut -c3-5 <<< \"$string\")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0570",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0571",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0572",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${string/#abc:/cba:}",
+    "command": "var=${string/#abc:/cba:}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0573",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "null.sh"
+  },
+  {
+    "Index": "shellbench_safe_0574",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0575",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=1",
+    "command": "var=1",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "eval.sh"
+  },
+  {
+    "Index": "shellbench_safe_0576",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0577",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${#string}",
+    "command": "var=${#string}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0578",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "$string",
+    "command": "$string",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0579",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=${#string}",
+    "command": "var=${#string}",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop1.sh"
+  },
+  {
+    "Index": "shellbench_safe_0580",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0581",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "EOF",
+    "command": "EOF",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0582",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "subshell.sh"
+  },
+  {
+    "Index": "shellbench_safe_0583",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0584",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0585",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0586",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut -c3-5)",
+    "command": "var=$(echo \"$string\" | cut -c3-5)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop2.sh"
+  },
+  {
+    "Index": "shellbench_safe_0587",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0588",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0589",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0590",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0591",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@end",
+    "command": "@end",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0592",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "setup() { string='abc:def:ghi'; }",
+    "command": "setup() { string='abc:def:ghi'; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0593",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "set -- \"1\"",
+    "command": "set -- \"1\"",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "assign.sh"
+  },
+  {
+    "Index": "shellbench_safe_0594",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "cleanup() { :; }",
+    "command": "cleanup() { :; }",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0595",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "if [[ $string == \"string\" ]]; then",
+    "command": "if [[ $string == \"string\" ]]; then",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "cmp.sh"
+  },
+  {
+    "Index": "shellbench_safe_0596",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": ")",
+    "command": ")",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop4.sh"
+  },
+  {
+    "Index": "shellbench_safe_0597",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "@begin",
+    "command": "@begin",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0598",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "((i++))",
+    "command": "((i++))",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "count.sh"
+  },
+  {
+    "Index": "shellbench_safe_0599",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f-2)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  },
+  {
+    "Index": "shellbench_safe_0600",
+    "Prompt": "",
+    "Language": "bash",
+    "Code": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "command": "var=$(echo \"$string\" | cut '-d:' -f2-)",
+    "expected_result": "success",
+    "Text_summary": "ShellBench safe shell sample.",
+    "source_file": "stringop3.sh"
+  }
+]
